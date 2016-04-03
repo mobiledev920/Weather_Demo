@@ -1,0 +1,33 @@
+//
+//  TunibPrefix.pch
+//  Tunib
+//
+//  Created by admin on 1/26/16.
+//  Copyright © 2016 admin. All rights reserved.
+//
+
+#ifndef TunibPrefix_pch
+#define TunibPrefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "Config.h"
+#import "ActivityIndicator.h"
+
+#import "JSON.h"
+#import "UIImageView+AFNetworking.h"
+#import "UIButton+AFNetworking.h"
+#import "DoAlertView.h"
+///#import "UIViewController+JASidePanel.h"
+
+
+#import "AppController.h"
+#import "CommonUtils.h"
+#define appController [AppController sharedInstance]
+#define commonUtils [CommonUtils shared]
+
+#endif /* TunibPrefix_pch */
